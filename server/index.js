@@ -12,7 +12,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin : ["http://localhost:3000", "https://chat-app-real-time.vercel.app"],
+    origin : ["http://localhost:3000", "https://chat-real-time-flax.vercel.app"],
     credentials: true, 
 }));
 
@@ -41,7 +41,7 @@ const server = app.listen(port, () =>
 
 const io = socket(server, {
     cors: {
-        origin: "https://chat-app-real-time.vercel.app",
+        origin: "https://chat-real-time-flax.vercel.app",
         credentials: true,
     },
 });
