@@ -1,4 +1,4 @@
-export const host = "https://chat-app-server-3db3.onrender.com";
+export const host = "https://chat-app-real-time.onrender.com";
 export const current_user = "current_user_Chat APP";
 export const loginRoute = `${host}/api/auth/login`;
 export const registerRoute = `${host}/api/auth/register`;
